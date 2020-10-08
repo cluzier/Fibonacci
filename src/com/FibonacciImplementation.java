@@ -36,7 +36,7 @@ public class FibonacciImplementation {
     }
 
     /**
-     * iterative method to calculate de Fibonacci sequence
+     * iterative method to calculate the Fibonacci sequence
      */
     private static long executeIterative(int n) {
         startTime = System.nanoTime();
