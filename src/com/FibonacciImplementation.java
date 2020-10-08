@@ -5,7 +5,7 @@ import java.util.Arrays;
 
 public class FibonacciImplementation {
     // Set the number of iterations or passes
-    static int iterations = 35;
+    static int iterations = 20;
     static int runtimes = 1;
 
     static long startTime;
