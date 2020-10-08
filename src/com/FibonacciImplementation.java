@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class FibonacciImplementation {
     // Set the number of iterations or passes
     static int iterations = 20;
-    static int runtimes = 1;
+    static int runtimes = 5;
 
     static long startTime;
     static long endTime;
@@ -89,12 +89,10 @@ public class FibonacciImplementation {
 
         System.out.println();
         System.out.println(recursivefilename + " was saved.");
-        System.out.println(totalTimeRecursive);
 
         iterativeResults.write(sbI.toString());
         iterativeResults.close();
 
         System.out.println(iterativefilename + " was saved.");
-        System.out.println(totalTimeIterative);
     }
 }
